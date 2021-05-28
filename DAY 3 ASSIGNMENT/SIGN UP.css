@@ -1,0 +1,44 @@
+body {
+  border-width: 1;
+  border-radius: 50px;
+  background-color: #ffc996;
+}
+
+.welcome {
+  margin: 70px;
+  padding: 120px;
+  border-style: solid;
+  border-color: #5f939a;
+  border-width: 8px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: tomato;
+}
+
+#name {
+  height: 20px;
+  width: 300px;
+}
+
+.already{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+  }
+  
+
+span {
+  text-align: center;
+  font-family: serif;
+  font-size: 40px;
+}
+
+::placeholder {
+  opacity: 0.75;
+}
+
+button:hover {
+  opacity: 0.5;
+}
